@@ -8,3 +8,4 @@ streamlit.text("Omega 3 & Blueberry oatmeal")
 streamlit.text("Kale, Spinach & ROcket Smoothie")
 
 streamlit.text("Hard-boiled free-range egg")
+streamlit.header("Build your own fuit smoothie!")
