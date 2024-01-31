@@ -13,6 +13,8 @@ streamlit.header("Build your own fuit smoothie!")
 
 import pandas as pd
 my_fruit_list = pd.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
+
+my_ruit_list = my_fruit_list.set_index('Fruit')
 ## put a pick list
 streamlit.multiselect("pick some fuits:", list(my_fruit_list.index))
 #display the table on the page
